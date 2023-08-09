@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding-left: 100px;
+  padding-right: 100px;
+  background-color: rgb(0, 0, 0);
+  min-height: 100vh;
+  font-family: sans-serif;
+}
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  z-index: 1000;
+}
+
+a {
+  margin-left: 80px;
+  margin-right: 80px;
+  padding: 8px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  transition: all 0.3s ease;
+}
+
+
+#navbar a:hover{
+  color: rgb(36, 170, 112);
+  
+}
+
+
+
+h1 {
+  font-size: 15px;
+  margin-left: 90px;
+  font-weight: 400;
+  margin-top: 100px;
+  color: rgb(193, 191, 191);
+}
+h2 {
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: 300;
+  margin-left: 90px;
+  color: white;
+  margin-top: 20px;
+}
+p {
+  font-size: small;
+  color: grey;
+  margin-right: 100px;
+  text-align: right;
+}
+img {
+  border-radius: 10px;
+}
+#image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  transform: scale(1);
+}
+#image:hover{
+  transform: scale(.9);
+  transition: 1.2s ease-in-out;
+  
+}
+#image:hover::after{
+  transition: ease-out;
+}
+#stats {
+  color: grey;
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+  font-size: 12px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+span {
+  color: white;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+#projects {
+  text-align: center;
+}
+#experience {
+  text-align: center;
+}
+#awards {
+  text-align: center;
+}
+#clients {
+  text-align: center;
+}
+
+#testimony {
+  display: flex;
+
+  background-color: #1a1a1a;
+
+
+  border-radius: 10px;
+  margin-left: 88px;
+  margin-top: 50px;
+  margin-right: 88px;
+}
+
+h3 {
+  color: rgb(136, 130, 130);
+  margin-left: 90px;
+  margin-top: 10px;
+  font-weight: 300;
+  padding-top: 20px;
+}
+h4 {
+  color: rgb(251, 235, 235);
+  margin-left: 90px;
+  margin-top: 10px;
+  font-weight: 500;
+  font-family: sans-serif;
+  line-height: 30px;
+  font-size: 24px;
+}
+#teacher {
+  border-radius: 50%;
+}
+#testimony-text {
+  display: block;
+ 
+}
+#teacher-image{
+  margin-top: 33px;
+  margin-left: 260px;
+
+}
+h5{
+  font-size: small;
+  color: grey;
+  margin-left: 88px;
+  margin-top: 20px;
+  font-weight: 200;
+  margin-bottom: 10px;
+}
+#services{
+  background-color: white;
+  border-radius: 10px;
+  margin-left: 88px;
+  margin-right: 90px;
+  margin-top: 20px;
+
+  
+}
+#icons{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+
+}
+h6{
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+  font-weight: 200;
+}
+#work-images{
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 90px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 12px;
+  transform: scale(1);
+
+}
+  
+
+#work-images :hover{
+  transform: scale(.9);
+  transition: 1.2s;
+}
+
+#button{
+  font-size: 18px;
+  border-radius: 25px;
+  padding: 10px 30px;
+  border-style: none;
+  cursor: pointer;
+ 
+
+}
+#bottom-button{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#email{
+  margin-left: 90px;
+  text-align: left;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+#submit{
+  padding: 10px;
+  background-color: white;
+  border:none;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+#footer{
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  background: linear-gradient(rgb(197, 117, 206), rgba(215, 138, 215, 0.974));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border:1px solid rgba(255,255,255,0.18);
+  box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+}
